@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FOTools.Encryption.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FOTools.Encryption.Fakes.ShimEncryption">
+            <summary>Shim type of FOTools.Encryption.Encryption</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimEncryption.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimEncryption.#ctor(FOTools.Encryption.Encryption)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimEncryption.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimEncryption.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.Constructor">
+            <summary>Sets the shim of Encryption.Encryption()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.RunAESStringBooleanString">
+            <summary>Sets the shim of Encryption.RunAES(String sFile, Boolean bEncrpyt, String encryptKey)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.keyScheduleCoreObjectObjectObjectRefObjectRef">
+            <summary>Sets the shim of Encryption.keyScheduleCore(Object row, Object a, Object&amp; box, Object&amp; rcon)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.ShimEncryption.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.AllInstances.RunAESStringBooleanString">
+            <summary>Sets the shim of Encryption.RunAES(String sFile, Boolean bEncrpyt, String encryptKey)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.AllInstances.expandKeyObjectRefObjectRefObjectRef">
+            <summary>Sets the shim of Encryption.expandKey(Object&amp; key, Object&amp; box, Object&amp; rcon)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimEncryption.AllInstances.keyScheduleCoreObjectObjectObjectRefObjectRef">
+            <summary>Sets the shim of Encryption.keyScheduleCore(Object row, Object a, Object&amp; box, Object&amp; rcon)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.ShimMyStringStream">
+            <summary>Shim type of FOTools.Encryption.MyStringStream</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimMyStringStream.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimMyStringStream.#ctor(FOTools.Encryption.MyStringStream)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimMyStringStream.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimMyStringStream.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AtEndofStreamGet">
+            <summary>Sets the shim of MyStringStream.get_AtEndofStream()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AtEndofStreamSetBoolean">
+            <summary>Sets the shim of MyStringStream.set_AtEndofStream(Boolean value)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.Constructor">
+            <summary>Sets the shim of MyStringStream.MyStringStream()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.CreateStreamString">
+            <summary>Sets the shim of MyStringStream.CreateStream(String str)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.ReadAll">
+            <summary>Sets the shim of MyStringStream.ReadAll()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.ReadStringInt64">
+            <summary>Sets the shim of MyStringStream.ReadString(Int64 count)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.Reset">
+            <summary>Sets the shim of MyStringStream.Reset()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.Rewind">
+            <summary>Sets the shim of MyStringStream.Rewind()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.WriteStringString">
+            <summary>Sets the shim of MyStringStream.WriteString(String s)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.AtEndofStreamGet">
+            <summary>Sets the shim of MyStringStream.get_AtEndofStream()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.AtEndofStreamSetBoolean">
+            <summary>Sets the shim of MyStringStream.set_AtEndofStream(Boolean value)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.CreateStreamString">
+            <summary>Sets the shim of MyStringStream.CreateStream(String str)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.ReadAll">
+            <summary>Sets the shim of MyStringStream.ReadAll()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.ReadStringInt64">
+            <summary>Sets the shim of MyStringStream.ReadString(Int64 count)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.Reset">
+            <summary>Sets the shim of MyStringStream.Reset()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.Rewind">
+            <summary>Sets the shim of MyStringStream.Rewind()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimMyStringStream.AllInstances.WriteStringString">
+            <summary>Sets the shim of MyStringStream.WriteString(String s)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.ShimScrambler">
+            <summary>Shim type of FOTools.Encryption.Scrambler</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimScrambler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimScrambler.#ctor(FOTools.Encryption.Scrambler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimScrambler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.ShimScrambler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.Constructor">
+            <summary>Sets the shim of Scrambler.Scrambler()</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.descrableStringString">
+            <summary>Sets the shim of Scrambler.descrableString(String str)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.myhexByte">
+            <summary>Sets the shim of Scrambler.myhex(Byte b)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.rotateLByteInt32">
+            <summary>Sets the shim of Scrambler.rotateL(Byte b, Int32 bits)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.rotateLeftByte">
+            <summary>Sets the shim of Scrambler.rotateLeft(Byte NewRot)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.rotateRByteInt32">
+            <summary>Sets the shim of Scrambler.rotateR(Byte b, Int32 bits)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.rotateRightByte">
+            <summary>Sets the shim of Scrambler.rotateRight(Byte NewRot)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.scrambleStringString">
+            <summary>Sets the shim of Scrambler.scrambleString(String str)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.ShimScrambler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.descrableStringString">
+            <summary>Sets the shim of Scrambler.descrableString(String str)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.myhexByte">
+            <summary>Sets the shim of Scrambler.myhex(Byte b)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.rotateLByteInt32">
+            <summary>Sets the shim of Scrambler.rotateL(Byte b, Int32 bits)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.rotateLeftByte">
+            <summary>Sets the shim of Scrambler.rotateLeft(Byte NewRot)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.rotateRByteInt32">
+            <summary>Sets the shim of Scrambler.rotateR(Byte b, Int32 bits)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.rotateRightByte">
+            <summary>Sets the shim of Scrambler.rotateRight(Byte NewRot)</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.ShimScrambler.AllInstances.scrambleStringString">
+            <summary>Sets the shim of Scrambler.scrambleString(String str)</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.StubEncryption">
+            <summary>Stub type of FOTools.Encryption.Encryption</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubEncryption.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubEncryption.InitializeStub">
+            <summary>Initializes a new instance of type StubEncryption</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubEncryption.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubEncryption.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubEncryption.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.StubMyStringStream">
+            <summary>Stub type of FOTools.Encryption.MyStringStream</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubMyStringStream.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubMyStringStream.InitializeStub">
+            <summary>Initializes a new instance of type StubMyStringStream</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubMyStringStream.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubMyStringStream.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubMyStringStream.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FOTools.Encryption.Fakes.StubScrambler">
+            <summary>Stub type of FOTools.Encryption.Scrambler</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubScrambler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FOTools.Encryption.Fakes.StubScrambler.InitializeStub">
+            <summary>Initializes a new instance of type StubScrambler</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubScrambler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubScrambler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FOTools.Encryption.Fakes.StubScrambler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.FOToolsEncryptionDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of FOTools.Encryption</summary>
+        </member>
+    </members>
+</doc>

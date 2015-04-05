@@ -1,0 +1,16 @@
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.MyApplication: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.MyComputer: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.MyProject: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.InternalXmlHelper: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.Resources.Resources: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.MySettings: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.My.MySettingsProperty: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate stub for FOTools.Encryption.Start: type is sealed.
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.MyApplication: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.MyComputer: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.MyProject: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.InternalXmlHelper: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.Resources.Resources: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.MySettings: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.My.MySettingsProperty: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
+C:\Project\AESEncryption\AESEncryption\Fakes\FOTools.Encryption.fakes : warning : Cannot generate shim for FOTools.Encryption.Start: type is not visible to exported or assembly(FOTools.Encryption.Fakes).
